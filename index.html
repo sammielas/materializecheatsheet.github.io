@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Materialize Cheat Sheet</title>
+  </head>
+
+  <body>
+    <nav>
+     <div class="nav-wrapper cyan darkened-2">
+       <a href="#!" class="brand-logo">Logo</a>
+       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+       <ul class="right hide-on-med-and-down">
+         <li><a href="sass.html">Sass</a></li>
+         <li><a href="badges.html">Components</a></li>
+         <li><a href="collapsible.html">Javascript</a></li>
+         <li><a href="mobile.html">Mobile</a></li>
+       </ul>
+     </div>
+   </nav>
+
+   <ul class="sidenav" id="mobile-demo">
+     <li><a href="sass.html">Sass</a></li>
+     <li><a href="badges.html">Components</a></li>
+     <li><a href="collapsible.html">Javascript</a></li>
+     <li><a href="mobile.html">Mobile</a></li>
+   </ul>
+
+
+  <div class="container">
+    <h1>Colours</h1>
+    <div class="red white-text">This is color red</div>
+    <div class="blue lighten-2 white-text">This is color red</div>
+    <div class="teal lighten-1 white-text">This is color red</div>
+    <div class="purple accent-2 white-text">This is color red</div>
+
+    <h1>Background colors</h1>
+    <div class="card-panel teal lighten-2">This is a card panel with a teal lighten-2 class</div>
+    <div class="card-panel green darken-1">This is a card panel with a green darken-1 class</div>
+    <div class="card-panel">
+    <span class="blue-text text-darken-2">This is a card panel with dark blue text</span>
+  </div>
+
+     <h1>Buttons</h1>
+     <h2>Raised Buttons</h2>
+     <a class="btn green ligthen-1 white-text">READ MORE</a>
+     <a class="waves-effect btn brown ligthen-1 white-text"><i class="material-icons left">cloud</i>READ MORE</a>
+     <a class="waves-effect waves-light btn cyan darken-3 white-text"><i class="material-icons right">cloud</i>READ MORE </a>
+
+     <h2>Floating Buttons</h2>
+     <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+
+     <h2>Flat Button</h2>
+     <a class="waves-effect waves-teal btn-flat black white-text">Button</a>
+
+     <h2>Submit Button</h2>
+     <button class="btn waves-effect waves-light blue darken-3 white-text" type="submit" name="action">Submit
+     <i class="material-icons right">send</i>
+     </button>
+
+     <h2>Disabled Button</h2>
+     <a class="btn-large disabled">Button</a>
+     <a class="btn disabled">Button</a>
+     <a class="btn-flat disabled">Button</a>
+     <a class="btn-floating disabled"><i class="material-icons">add</i></a>
+
+     <!-- FIXED ACTION BUTTON-->
+     <div class="fixed-action-btn">
+      <a class="btn-floating btn-large red">
+      <i class="large material-icons">mode_edit</i>
+    </a>
+    <ul>
+    <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+    <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+    <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+    <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+    </ul>
+    </div>
+
+    <h1>HELPERS</h1>
+    <!-- ALIGNMENT -->
+    <div>
+      <h5 class="left-align">This aligns to the left</h5>
+      <h5 class="right-align">This aligns to the Right</h5>
+      <h5 class="left-center">This aligns to the center</h5>
+    </div>
+
+    <h1>QUICK FLOATS</h1>
+    <div class="left">Left Float</div>
+    <div class="right">Right Float</div>
+
+    <!-- Clear Floats -->
+    <div class="clearfix"></div>
+
+     <!--HIDE CONTENT -->
+     <div class="hide-on-small-only">HIDDEN FOR MOBILE DEVICES</div>
+     <div class="hide-on-med-only">HIDDEN FOR TABLETS</div>
+     <div class="hide-on-med-and-down">HIDDEN FOR TABLETS AND SMALLER</div>
+
+     <!-- TRUNCATION -->
+     <h4 class="truncate">This is an extremely long title that will be truncated</h4>
+
+
+     <div class="hoverable blue darken-1 white-text">
+     <h1>Hover</h1>
+     <p>
+       The hoverable is a hover class that adds an animation for box shadow
+        as seen below. It can be used on most elements, but meant for use on cards.
+      </p>
+      </div>
+
+      <h1>PULSE</h1>
+      <p>
+      Draw attention to your buttons with this subtle but captivating effect.
+      Just add the class pulse to your button. Note: This is meant for floating buttons,
+      so it may not work perfectly with every component.The new generation of project
+      management tools is here and it’s visual.
+      </p>
+      <a class="btn-floating pulse"><i class="material-icons">menu</i></a>
+      <a class="btn-floating btn-large pulse"><i class="material-icons">cloud</i></a>
+      <a class="btn-floating btn-large cyan pulse"><i class="material-icons">edit</i></a>
+
+      <h1>SHADOW</h1>
+      <p class="z-depth-1 red darken-3 white-text">z-depth-1</p>
+      <p class="z-depth-2 red darken-3 white-text">z-depth-2</p>
+      <p class="z-depth-3 red darken-3 white-text">z-depth-3</p>
+      <p class="z-depth-4 red darken-3 white-text">z-depth-4</p>
+      <p class="z-depth-5 red darken-3 white-text">z-depth-5</p>
+
+     <h1>FLOW TEXT</h1>
+     <p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ipsam
+       dicta vitae ratione nihil soluta, accusamus eos iure reiciendis harum ab in
+        quasi laborum assumenda, aspernatur minus odit ullam dolor.</p>
+
+        <h1>IMAGES</h1>
+        <img class="responsive-img" src="img/back-desktop@1x.jpg">
+
+        <!-- Circular Images -->
+        <div class="col s12 m8 offset-m2 l6 offset-l3">
+        <div class="card-panel teal darken-3  z-depth-5">
+          <div class="row valign-wrapper">
+            <div class="col s2">
+              <img src="img/CWUWIMTIDO.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+            </div>
+            <div class="col s10">
+              <span class="black-text">
+                This is a square image. Add the "circle" class to it to make it appear circular.
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     <h1>COLLECTIONS</h1>
+     <h3>AVATAR CONTENT</h3>
+     <ul class="collection">
+    <li class="collection-item avatar">
+      <img src="img/LZDG3B8SXI.jpg" alt="" class="circle">
+      <span class="title">Title</span>
+      <p>First Line <br>
+         Second Line
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+    <li class="collection-item avatar">
+      <i class="material-icons circle">folder</i>
+      <span class="title">Title</span>
+      <p>First Line <br>
+         Second Line
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+    <li class="collection-item avatar">
+      <i class="material-icons circle green">insert_chart</i>
+      <span class="title">Title</span>
+      <p>First Line <br>
+         Second Line
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+    <li class="collection-item avatar">
+      <i class="material-icons circle red">play_arrow</i>
+      <span class="title">Title</span>
+      <p>First Line <br>
+         Second Line
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+  </ul>
+
+  <div class="collection">
+       <a href="#!" class="collection-item">Jack</a>
+       <a href="#!" class="collection-item active">Jill</a>
+       <a href="#!" class="collection-item">Bauer</a>
+       <a href="#!" class="collection-item">Ben</a>
+     </div>
+
+   <h1>PAGINATION</h1>
+   <ul class="pagination">
+   <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+   <li class="active"><a href="#!">1</a></li>
+   <li class="waves-effect"><a href="#!">2</a></li>
+   <li class="waves-effect"><a href="#!">3</a></li>
+   <li class="waves-effect"><a href="#!">4</a></li>
+   <li class="waves-effect"><a href="#!">5</a></li>
+   <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+ </ul>
+
+ <H1>CARDS</H1>
+ <div class="row">
+    <div class="col s12 m6">
+      <div class="card blue darken-1">
+        <div class="card-content white-text">
+          <span class="card-title">Card Title</span>
+          <p>I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively.</p>
+        </div>
+        <div class="card-action">
+          <a class= "btn red lighten-3" href="#">link 1</a>
+          <a class= "btn red lighten-3" href="#">link 2</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h1>IMAGE CARDS</h1>
+  <div class="row">
+    <div class="col s12 m7">
+      <div class="card">
+        <div class="card-image">
+          <img src="img/xx.png">
+          <span class="card-title">Ubuntu Desktop</span>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively.</p>
+        </div>
+        <div class="card-action">
+          <a class= "btn teal darken-3"href="#">Read More ...</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<h1>FORMS</h1>
+
+
+
+   <div style="height:200px;"></div>
+   </div> <!--end of Container class-->
+
+  <script type="text/JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  <script type="text/JavaScript" src="js/script.js"></script>
+
+  </body>
+</html>
